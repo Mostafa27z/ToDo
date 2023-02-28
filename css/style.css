@@ -1,0 +1,115 @@
+*{
+	font-family: sans-serif;
+	transition: all 0.5s;
+}
+h1{
+	text-align: center;
+	color: cyan;
+}
+body{
+	background-color: black;
+}
+.point{
+	cursor: pointer;
+}
+.add{
+	background-color: rgb(50,50,255);
+	color: white;
+	margin: 50px auto;
+	padding: 10px;
+	border-radius: 10px;
+	border-style: none;
+	display: block;
+}
+.cont{
+	background-color: rgba(255,255,255,0.2);
+	padding: 50px;
+	width: 80vw;
+	margin: auto;
+	border-radius: 10px;
+}
+.data{
+	background-color: rgb(255,100,100);
+	padding: 20px;
+	text-align: center;
+	width: 80%;
+	margin: auto;
+	border-radius: 20px;
+	font-size: 20px;
+	font-weight: 800;
+
+}
+.task{
+
+	position: absolute;
+	top: 50px;
+	left: 10vw;
+	display: none; 
+	width: 80vw;
+	height: auto;
+	background-color: white;
+	border-radius: 10px;
+}
+.task .top{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px 10px;
+	width: 90%;
+	margin: auto;
+
+}
+hr{
+	margin-top: 0px;
+	border-width: 2px
+}
+.adta{
+	text-align: center;
+}
+.s{
+	float: right;
+	margin: 10px;
+}
+.do{
+	background-color: rgb(200,190,190);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 30px;	
+	border-radius: 20px;
+	margin-bottom: 10px;
+}
+.do *{
+	margin: 0;
+	padding: 0;
+}
+.do .point{
+	background-color: red;
+	color: white;
+	padding: 10px 15px;
+	border-radius: 10px;
+
+}
+.dark{
+	margin: 20px auto;
+	display: block;
+
+}
+@media (max-width: 600px){
+	.data{
+		font-size: 15px;
+	}
+}
+@media (max-width: 450px){
+	.cont{
+		width: 90vw;
+	}
+	.data{
+		width: 100%;
+		font-size: 14px;
+	}
+	input{
+		display: block;
+		margin: 30px auto;
+	}
+}
